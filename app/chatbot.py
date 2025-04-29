@@ -8,7 +8,8 @@ from app.recommender import find_relevant_products
 from app.utils.text_processor import clean_text
 
 # Initialize Together AI client
-TOGETHER_API_KEY = "615ffbede3a1cdc3a56335142cc4131c9228b69b5813713d3c1abe132dcb66a9"
+TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY")
+
 client = Together(api_key=TOGETHER_API_KEY)
 
 class ChatEngine:
