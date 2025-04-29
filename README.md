@@ -30,7 +30,7 @@ SmartShop AI is an advanced e-commerce platform that combines traditional shoppi
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/smartshop-ai.git
+git clone [https://github.com/nitij-taneja/SmartShop.ai.git]
 cd smartshop-ai
 ```
 
